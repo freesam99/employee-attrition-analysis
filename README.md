@@ -28,44 +28,27 @@ This project explores the following questions:
 
 **Source:** IBM HR Analysitics Employee Attrition & Performance Dataset 
 
+For a complete description of all variables, see the [Data Dictionary](data_dictionary.md). 
+
 **Dataset Size:** 
 - 1,470 employee records 
-- 35 employee related attritbutes 
+- 35 employee related attritbutes
 
-### Variables
+### Variables used Throughout the Project
 
-- Age 
-- Attrition 
+- Age
+- Attrition
 - BusinessTravel
 - DailyRate
 - Department
-- DistanceFromHome
-- Education
-- EducationField
-- EmployeeCount
-- EmployeeNumber
 - EnvironmentSatisfaction
-- Gender
-- HourlyRate
-- JobInvolvement
-- JobLevel 
 - JobRole
 - JobSatisfaction
 - MaritalStatus
-- MonthlyIncome 
-- MonthlyRate
-- NumCompaniesWorked
-- Over18
+- MonthlyIncome
 - OverTime
-- PerformanceSalaryHike
-- PerformanceRating
-- RelationshipSatisfaction 
-- StandardHours
-- StockOptionLevel
-- TotalWorkingYears
-- TrainingTimesLastYear
+- RelationshipSatisfaction
 - WorkLifeBalance
 - YearsAtCompany
-- YearsInCurrentRole
-- YearsSinceLastPromotion 
-- YearsWithCurrManager
+
+
