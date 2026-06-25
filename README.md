@@ -51,4 +51,36 @@ For a complete description of all variables, see the [Data Dictionary](data_dict
 - WorkLifeBalance
 - YearsAtCompany
 
+--- 
 
+## Tools Used 
+
+- PostgreSQL
+- pgAdmin 4
+- SQL
+- Tableau
+- GitHub
+
+--- 
+
+## Database Design 
+
+The dataset was imported into PostgreSQL and started in a relational table named: 
+
+```sql
+hr_attrition
+```
+
+Data types were selected based on the structure of each variable, using integer types for quantitative variables and text based types for categorical variables. 
+
+--- 
+
+## Analysis Performed 
+
+### 1. Overall Attrition Rate 
+
+### 2. Attrition by Department 
+
+### 3. Attrition by Job Role 
+
+### 4. Attrition 
