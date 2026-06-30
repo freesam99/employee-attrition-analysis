@@ -53,34 +53,53 @@ For a complete description of all variables, see the [Data Dictionary](data_dict
 
 --- 
 
-## Tools Used 
+## Software/Technology Used 
 
 - PostgreSQL
 - pgAdmin 4
 - SQL
 - Tableau
-- GitHub
+- Git
+- Github
 
---- 
+---
 
-## Database Design 
+# Repository Structure 
 
-The dataset was imported into PostgreSQL and started in a relational table named: 
-
-```sql
-hr_attrition
+```
+employee-attrition-analysis/
+│
+├── README.md
+├── data/
+│   └── employee_attrition.csv
+│
+├── sql/
+│   ├── schema.sql
+│   ├── import_data.sql
+│   └── analysis_queries.sql
+│
+├── documentation/
+│   ├── data_dictionary.md
+│   └── analysis_summary.md
+│
+├── visualizations/
+│
+└── dashboard/
+    └── employee_attrition_dashboard.twb
 ```
 
-Data types were selected based on the structure of each variable, using integer types for quantitative variables and text based types for categorical variables. 
+---
 
---- 
+## Repository Contents
 
-## Analysis Performed 
-
-### 1. Overall Attrition Rate 
-
-### 2. Attrition by Department 
-
-### 3. Attrition by Job Role 
-
-### 4. Attrition 
+| File/Folder | Description |
+|-------------|-------------|
+| `README.md` | Project overview, business questions, repository structure, and documentation. |
+| `data/employee_attrition.csv` | Original IBM HR Analytics Employee Attrition & Performance dataset used for the analysis. |
+| `sql/schema.sql` | Creates the PostgreSQL table and defines the database schema. |
+| `sql/import_data.sql` | Imports the employee attrition dataset into PostgreSQL. |
+| `sql/analysis_queries.sql` | SQL queries used to answer each business question and perform the employee attrition analysis. |
+| `documentation/data_dictionary.md` | Describes each variable in the dataset, including definitions and possible values. |
+| `documentation/analysis_summary.md` | Summarizes the key findings and business insights from the SQL analysis. |
+| `visualizations/` | Charts and graphs created from the SQL query results for easier interpretation. |
+| `dashboard/employee_attrition_dashboard.twb` | Tableau workbook containing an interactive employee attrition dashboard. |
