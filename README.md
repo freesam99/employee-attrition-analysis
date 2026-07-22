@@ -98,7 +98,7 @@ employee-attrition-analysis/
 | `data/employee_attrition.csv` | Original IBM HR Analytics Employee Attrition & Performance dataset used for the analysis. |
 | `sql/schema.sql` | Creates the PostgreSQL table and defines the database schema. |
 | `sql/import_data.sql` | Imports the employee attrition dataset into PostgreSQL. |
-| `sql/analysis_queries.sql` | SQL queries used to answer each business question and perform the employee attrition analysis. |
+| `sql/employee_attrition_queries.sql` | SQL queries used to answer each business question and perform the employee attrition analysis. |
 | `documentation/data_dictionary.md` | Describes each variable in the dataset, including definitions and possible values. |
 | `documentation/analysis_summary.md` | Summarizes the key findings and business insights from the SQL analysis. |
 | `visualizations/` | Charts and graphs created from the SQL query results for easier interpretation. |
