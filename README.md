@@ -76,7 +76,7 @@ employee-attrition-analysis/
 ├── sql/
 │   ├── schema.sql
 │   ├── import_data.sql
-│   └── analysis_queries.sql
+│   └── employee_attrition_queries.sql
 │
 ├── documentation/
 │   ├── data_dictionary.md
