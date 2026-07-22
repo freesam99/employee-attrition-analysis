@@ -28,7 +28,7 @@ This project explores the following questions:
 
 **Source:** IBM HR Analysitics Employee Attrition & Performance Dataset 
 
-For a complete description of all variables, see the [Data Dictionary](data_dictionary.md). 
+For a complete description of all variables, see the [Data Dictionary](documentation/data_dictionary.md).
 
 **Dataset Size:** 
 - 1,470 employee records 
