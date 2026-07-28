@@ -25,3 +25,18 @@ SELECT
 		FROM hr_attrition
 		GROUP BY department
 		Order BY attrition_rate DESC;
+
+-- Query 3: 
+-- Question: Which job roles have the highest attrition rate? 
+
+SELECT 
+	jobrole,
+	COUNT(*) AS total_employees, 
+	SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) AS employees_left,
+	ROUND(
+		SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
+		2
+		) AS attrition_rate
+FROM hr_attrition
+GROUP BY jobrole
+ORDER BY attrition_rate DESC;
