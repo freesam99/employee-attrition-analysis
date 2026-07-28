@@ -40,3 +40,18 @@ SELECT
 FROM hr_attrition
 GROUP BY jobrole
 ORDER BY attrition_rate DESC;
+
+-- Query 4: 
+-- Question: Does overtime contribute to employee turnover? 
+
+SELECT
+    overtime,
+    COUNT(*) AS total_employees,
+    SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) AS employees_left,
+    ROUND(
+        SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) * 100.0 / COUNT(*),
+        2
+    ) AS attrition_rate
+FROM hr_attrition
+GROUP BY overtime
+ORDER BY attrition_rate DESC;
