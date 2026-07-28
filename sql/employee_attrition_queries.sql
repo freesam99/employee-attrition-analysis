@@ -55,3 +55,24 @@ SELECT
 FROM hr_attrition
 GROUP BY overtime
 ORDER BY attrition_rate DESC;
+
+-- Query 5: 
+-- Question: Is employee compensation associated to attrition? 
+
+SELECT
+    CASE
+        WHEN monthlyincome < 3000 THEN 'Under $3,000'
+        WHEN monthlyincome BETWEEN 3000 AND 5999 THEN '$3,000 - $5,999'
+        WHEN monthlyincome BETWEEN 6000 AND 9999 THEN '$6,000 - $9,999'
+        ELSE '$10,000+'
+    END AS income_group,
+    COUNT(*) AS total_employees,
+    SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) AS employees_left,
+    ROUND(
+        SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) * 100.0
+        / COUNT(*),
+        2
+    ) AS attrition_rate
+FROM hr_attrition
+GROUP BY income_group
+ORDER BY attrition_rate DESC;
