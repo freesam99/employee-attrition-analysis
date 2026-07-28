@@ -39,3 +39,17 @@ Which job roles experience the highest employee turnover?
 
 ### Interpretation
 Sales Representatives experienced substantially higher employee turnover than any other job role, with nearly **40%** of employees leaving the company. Laboratory Technicians and Human Resources employees also showed elevated attrition rates, suggesting these roles may face greater retention challenges. In contrast, leadership positions such as Research Director and Manager demonstrated much lower attrition rates, indicating stronger employee retention within those roles.
+
+
+## Query 4: Attrition by Overtime
+
+### Business Question
+Does working overtime contribute to employee turnover?
+
+### Findings
+- Employees who worked overtime had an attrition rate of **30.53%** (**127** of **416** employees left).
+- Employees who did not work overtime had an attrition rate of **10.44%** (**110** of **1,054** employees left).
+- Employees working overtime experienced nearly **three times** the attrition rate of those who did not work overtime.
+
+### Interpretation
+Employees who worked overtime were significantly more likely to leave the company than employees who did not. While this analysis does not establish that overtime directly causes employee attrition, it suggests a strong association between overtime and turnover. This finding indicates that workload and scheduling practices may be important areas for organizations to evaluate when developing employee retention strategies.
