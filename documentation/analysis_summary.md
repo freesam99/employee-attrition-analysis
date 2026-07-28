@@ -11,6 +11,7 @@ How many employees leave the company?
 ### Interpretation
 Approximately one out of every six employees left the company. This establishes a baseline attrition rate that will be explored further in subsequent analyses by department, job role, overtime, compensation, and job satisfaction.
 
+
 ## Query 2: Attrition by Department
 
 ### Business Question
@@ -23,3 +24,18 @@ Which departments have the highest employee turnover?
 
 ### Interpretation
 Sales experienced the highest employee turnover rate, indicating it may face greater retention challenges than the other departments. Although Research & Development had the largest number of employees leave (**133**), it also had the largest workforce (**961** employees), resulting in the lowest attrition rate (**13.84%**). These findings demonstrate why attrition rates provide a more meaningful comparison than raw employee counts when evaluating turnover across departments.
+
+
+## Query 3: Attrition by Job Role
+
+### Business Question
+Which job roles experience the highest employee turnover?
+
+### Findings
+- Sales Representatives experienced the highest attrition rate at **39.76%** (**33** of **83** employees left).
+- Laboratory Technicians had the second-highest attrition rate at **23.94%** (**62** of **259** employees left).
+- Human Resources employees had an attrition rate of **23.08%** (**12** of **52** employees left).
+- Research Directors experienced the lowest attrition rate at **2.50%** (**2** of **80** employees left).
+
+### Interpretation
+Sales Representatives experienced substantially higher employee turnover than any other job role, with nearly **40%** of employees leaving the company. Laboratory Technicians and Human Resources employees also showed elevated attrition rates, suggesting these roles may face greater retention challenges. In contrast, leadership positions such as Research Director and Manager demonstrated much lower attrition rates, indicating stronger employee retention within those roles.
