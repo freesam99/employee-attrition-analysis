@@ -53,3 +53,18 @@ Does working overtime contribute to employee turnover?
 
 ### Interpretation
 Employees who worked overtime were significantly more likely to leave the company than employees who did not. While this analysis does not establish that overtime directly causes employee attrition, it suggests a strong association between overtime and turnover. This finding indicates that workload and scheduling practices may be important areas for organizations to evaluate when developing employee retention strategies.
+
+
+## Query 5: Attrition by Monthly Income
+
+### Business Question
+Is employee compensation associated with attrition?
+
+### Findings
+- Employees earning **under $3,000** per month experienced the highest attrition rate at **28.61%** (**113** of **395** employees left).
+- Employees earning **$3,000 - $5,999** had an attrition rate of **12.72%** (**66** of **519** employees left).
+- Employees earning **$6,000 - $9,999** had an attrition rate of **12.00%** (**33** of **275** employees left).
+- Employees earning **$10,000 or more** had the lowest attrition rate at **8.90%** (**25** of **281** employees left).
+
+### Interpretation
+Employees in the lowest income group experienced substantially higher turnover than employees in higher income brackets. While this analysis does not establish that compensation directly causes employee attrition, it suggests a strong association between lower monthly income and increased employee turnover. These findings indicate that compensation may be an important factor to consider when evaluating employee retention strategies.
