@@ -68,3 +68,18 @@ Is employee compensation associated with attrition?
 
 ### Interpretation
 Employees in the lowest income group experienced substantially higher turnover than employees in higher income brackets. While this analysis does not establish that compensation directly causes employee attrition, it suggests a strong association between lower monthly income and increased employee turnover. These findings indicate that compensation may be an important factor to consider when evaluating employee retention strategies.
+
+
+## Query 6: Attrition by Job Satisfaction
+
+### Business Question
+Does job satisfaction influence employee attrition?
+
+### Findings
+- Employees with **low** job satisfaction experienced the highest attrition rate at **22.84%** (**66** of **289** employees left).
+- Employees with **medium** job satisfaction had an attrition rate of **16.43%** (**46** of **280** employees left).
+- Employees with **high** job satisfaction had an attrition rate of **16.52%** (**73** of **442** employees left).
+- Employees with **very high** job satisfaction experienced the lowest attrition rate at **11.33%** (**52** of **459** employees left).
+
+### Interpretation
+Employees reporting the lowest job satisfaction experienced the highest rate of turnover, while employees with very high job satisfaction had the lowest attrition rate. Although this analysis does not establish a causal relationship, it suggests that employee satisfaction may be associated with retention. The relatively similar attrition rates among employees with medium and high satisfaction indicate that the greatest reduction in turnover occurs among employees reporting very high job satisfaction.
