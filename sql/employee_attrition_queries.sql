@@ -102,3 +102,30 @@ SELECT
 FROM hr_attrition
 GROUP BY jobsatisfaction
 ORDER BY jobsatisfaction;
+
+
+-- Query 7: 
+-- Question: Does work life balance affect employee turnover? 
+
+SELECT
+    CASE
+        WHEN worklifebalance = 1 THEN 'Bad'
+        WHEN worklifebalance = 2 THEN 'Good'
+        WHEN worklifebalance = 3 THEN 'Better'
+        WHEN worklifebalance = 4 THEN 'Best'
+    END AS work_life_balance,
+    COUNT(*) AS total_employees,
+    SUM(
+        CASE
+            WHEN attrition = 'Yes' THEN 1
+            ELSE 0
+        END
+    ) AS employees_left,
+    ROUND(
+        SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END)
+        * 100.0 / COUNT(*),
+        2
+    ) AS attrition_rate
+FROM hr_attrition
+GROUP BY worklifebalance
+ORDER BY worklifebalance;
