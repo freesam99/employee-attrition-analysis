@@ -11,6 +11,7 @@ FROM hr_attrition
 GROUP BY attrition
 ORDER BY attrition;
 
+
 -- Query 2: 
 -- Question: Which departments have the highest turnover? 
 
@@ -25,6 +26,7 @@ SELECT
 		FROM hr_attrition
 		GROUP BY department
 		Order BY attrition_rate DESC;
+
 
 -- Query 3: 
 -- Question: Which job roles have the highest attrition rate? 
@@ -41,6 +43,7 @@ FROM hr_attrition
 GROUP BY jobrole
 ORDER BY attrition_rate DESC;
 
+
 -- Query 4: 
 -- Question: Does overtime contribute to employee turnover? 
 
@@ -55,6 +58,7 @@ SELECT
 FROM hr_attrition
 GROUP BY overtime
 ORDER BY attrition_rate DESC;
+
 
 -- Query 5: 
 -- Question: Is employee compensation associated to attrition? 
@@ -76,3 +80,20 @@ SELECT
 FROM hr_attrition
 GROUP BY income_group
 ORDER BY attrition_rate DESC;
+
+
+-- Query 6: 
+-- Question: Does job satisfaction influence employee attrition 
+
+SELECT
+    jobsatisfaction,
+    COUNT(*) AS total_employees,
+    SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) AS employees_left,
+    ROUND(
+        SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) * 100.0
+        / COUNT(*),
+        2
+    ) AS attrition_rate
+FROM hr_attrition
+GROUP BY jobsatisfaction
+ORDER BY jobsatisfaction;
