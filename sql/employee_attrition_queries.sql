@@ -86,7 +86,12 @@ ORDER BY attrition_rate DESC;
 -- Question: Does job satisfaction influence employee attrition 
 
 SELECT
-    jobsatisfaction,
+    CASE
+        WHEN jobsatisfaction = 1 THEN 'Low'
+        WHEN jobsatisfaction = 2 THEN 'Medium'
+        WHEN jobsatisfaction = 3 THEN 'High'
+        WHEN jobsatisfaction = 4 THEN 'Very High'
+    END AS job_satisfaction,
     COUNT(*) AS total_employees,
     SUM(CASE WHEN attrition = 'Yes' THEN 1 ELSE 0 END) AS employees_left,
     ROUND(
