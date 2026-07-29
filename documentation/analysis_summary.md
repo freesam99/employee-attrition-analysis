@@ -83,3 +83,18 @@ Does job satisfaction influence employee attrition?
 
 ### Interpretation
 Employees reporting the lowest job satisfaction experienced the highest rate of turnover, while employees with very high job satisfaction had the lowest attrition rate. Although this analysis does not establish a causal relationship, it suggests that employee satisfaction may be associated with retention. The relatively similar attrition rates among employees with medium and high satisfaction indicate that the greatest reduction in turnover occurs among employees reporting very high job satisfaction.
+
+
+## Query 7: Attrition by Work-Life Balance
+
+### Business Question
+Does work-life balance affect employee turnover?
+
+### Findings
+- Employees with **bad** work-life balance experienced the highest attrition rate at **31.25%** (**25** of **80** employees left).
+- Employees with **good** work-life balance had an attrition rate of **16.86%** (**58** of **344** employees left).
+- Employees with **better** work-life balance had the lowest attrition rate at **14.22%** (**127** of **893** employees left).
+- Employees with the **best** work-life balance had an attrition rate of **17.65%** (**27** of **153** employees left).
+
+### Interpretation
+Employees reporting bad work-life balance were substantially more likely to leave the company than employees in the other groups. However, attrition did not decrease consistently across every improvement in work-life balance, since employees in the best category had a slightly higher attrition rate than those in the good and better categories. This suggests that poor work-life balance may be associated with higher turnover, but other factors are also likely influencing employee attrition.
