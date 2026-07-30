@@ -32,7 +32,7 @@ For a complete description of all variables, see the [Data Dictionary](documenta
 
 **Dataset Size:** 
 - 1,470 employee records 
-- 35 employee related attritbutes
+- 35 employee related attributes
 
 ### Variables used Throughout the Project
 
