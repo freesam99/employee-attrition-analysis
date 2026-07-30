@@ -51,20 +51,13 @@ For a complete description of all variables, see the [Data Dictionary](documenta
 
 ### Variables used Throughout the Project
 
-- Age
 - Attrition
-- BusinessTravel
-- DailyRate
 - Department
-- EnvironmentSatisfaction
 - JobRole
-- JobSatisfaction
-- MaritalStatus
-- MonthlyIncome
 - OverTime
-- RelationshipSatisfaction
+- MonthlyIncome
+- JobSatisfaction
 - WorkLifeBalance
-- YearsAtCompany
 
 --- 
 
