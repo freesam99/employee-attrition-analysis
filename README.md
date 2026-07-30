@@ -5,7 +5,7 @@
 
 Employee turnover can be costly for organizations due to recruiting expenses, training costs, and stalled productivity. The goal of this project is to analyze employee attrition data and identify factors associated with employees leaving the company. 
 
-Using the IBM HR Analystics Employee Attrition & Performance dataset, I performed exploratory data analysis and SQL-based investigations to uncover patterns related to attritiion. 
+Using the IBM HR Analytics Employee Attrition & Performance dataset, I performed exploratory data analysis and SQL-based investigations to uncover patterns related to attrition. 
 
 ---
 
