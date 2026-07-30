@@ -41,6 +41,8 @@ Throughout this analysis, several important patterns emerged regarding employee 
 
 **Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) 
 
+> **Note:** This dataset is a fictional HR dataset created by IBM data scientists for educational and analytical purposes. It does not contain real employee information.
+
 For a complete description of all variables, see the [Data Dictionary](documentation/data_dictionary.md).
 
 **Dataset Size:** 
