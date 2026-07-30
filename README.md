@@ -39,7 +39,7 @@ Throughout this analysis, several important patterns emerged regarding employee 
 ---
 ## Dataset 
 
-**Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) :contentReference[oaicite:0]{index=0} 
+**Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) 
 
 For a complete description of all variables, see the [Data Dictionary](documentation/data_dictionary.md).
 
