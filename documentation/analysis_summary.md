@@ -98,3 +98,18 @@ Does work-life balance affect employee turnover?
 
 ### Interpretation
 Employees reporting bad work-life balance were substantially more likely to leave the company than employees in the other groups. However, attrition did not decrease consistently across every improvement in work-life balance, since employees in the best category had a slightly higher attrition rate than those in the good and better categories. This suggests that poor work-life balance may be associated with higher turnover, but other factors are also likely influencing employee attrition.
+
+
+## Query 8: High-Risk Employee Groups
+
+### Business Question
+Which employee groups appear to be at the highest risk of attrition?
+
+### Findings
+- **Sales Representatives** in the **Sales** department who worked **overtime** experienced the highest attrition rate at **66.67%** (**16** of **24** employees left).
+- **Laboratory Technicians** in **Research & Development** who worked **overtime** had an attrition rate of **50.00%** (**31** of **62** employees left).
+- **Human Resources** employees who worked **overtime** experienced an attrition rate of **38.46%** (**5** of **13** employees left).
+- All of the five highest-risk employee groups identified in this analysis worked **overtime**.
+
+### Interpretation
+Combining department, job role, and overtime status revealed patterns that were not visible when analyzing each factor independently. Employees working overtime consistently appeared among the highest-risk groups, reinforcing earlier findings that overtime is strongly associated with increased employee turnover. These results suggest that organizations may benefit from examining workload, staffing levels, and overtime practices within specific job roles and departments when developing retention strategies.
