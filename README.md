@@ -23,10 +23,23 @@ This project explores the following questions:
 - Which employee groups appear to be at the highest risk of attrition? 
 
 ---
+## Key Findings
 
+Throughout this analysis, several important patterns emerged regarding employee attrition:
+
+- **Overall Attrition:** The overall employee attrition rate was **16.12%**, with **237** of **1,470** employees leaving the company.
+- **Department:** The **Sales** department experienced the highest departmental attrition rate at **20.63%**.
+- **Job Role:** **Sales Representatives** had the highest job role attrition rate at **39.76%**, indicating significant retention challenges within this position.
+- **Overtime:** Employees working **overtime** experienced an attrition rate of **30.53%**, nearly **three times** higher than employees who did not work overtime (**10.44%**).
+- **Monthly Income:** Employees earning **under $3,000 per month** had the highest attrition rate (**28.61%**), while employees earning **$10,000 or more** had the lowest (**8.90%**).
+- **Job Satisfaction:** Employees reporting **low job satisfaction** experienced higher turnover than employees with **very high** job satisfaction.
+- **Work-Life Balance:** Employees reporting **bad** work-life balance had the highest attrition rate (**31.25%**) among all work-life balance groups.
+- **High-Risk Groups:** Combining department, job role, and overtime revealed that the **highest-risk employee groups consistently involved employees working overtime**, reinforcing overtime as one of the strongest factors associated with employee attrition in this dataset.
+
+---
 ## Dataset 
 
-**Source:** IBM HR Analysitics Employee Attrition & Performance Dataset 
+**Source:** [IBM HR Analytics Employee Attrition & Performance Dataset](https://www.kaggle.com/datasets/pavansubhasht/ibm-hr-analytics-attrition-dataset) :contentReference[oaicite:0]{index=0} 
 
 For a complete description of all variables, see the [Data Dictionary](documentation/data_dictionary.md).
 
