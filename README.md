@@ -67,7 +67,6 @@ For a complete description of all variables, see the [Data Dictionary](documenta
 - pgAdmin 4
 - SQL
 - Tableau
-- Git
 - Github
 
 ---
